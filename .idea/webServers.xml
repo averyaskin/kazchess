@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2d7aa1b-46e7-42dc-ac59-a267df5379ca" name="carboxi.ru" url="http://carboxi.ru">
+        <fileTransfer host="carboxi.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="157c1cc0-eaf4-443d-acf6-6b19004929dc" name="mega-pr.ru" url="http://mega-pr.ru">
+        <fileTransfer host="mega-pr.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d7c08063-5752-4954-8395-93fb94576d8a" name="action.fiteywa.ru" url="http://action.fiteywa.ru">
+        <fileTransfer host="action.fiteywa.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
