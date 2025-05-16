@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea, button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+Some default styling.  This applies to edit mode and run mode, and effects things
+such as HTML elements.
+*/
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+ul, ol {
+  display: block;
+  padding-left: 40px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+input[type=input], input[type=text], input[type=password], input[type=email], input[type=search], input[type=tel], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=input]::-webkit-input-placeholder, input[type=text]::-webkit-input-placeholder, input[type=password]::-webkit-input-placeholder, input[type=email]::-webkit-input-placeholder, input[type=search]::-webkit-input-placeholder, input[type=tel]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #A9A9A9;
+}
+input[type=input]::-moz-placeholder, input[type=text]::-moz-placeholder, input[type=password]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=search]::-moz-placeholder, input[type=tel]::-moz-placeholder, textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #A9A9A9;
+  opacity: 1;
+}
+input[type=input]:-ms-input-placeholder, input[type=text]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder, input[type=search]:-ms-input-placeholder, input[type=tel]:-ms-input-placeholder, textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #A9A9A9 !important;
+}
+input[type=input]:-moz-placeholder, input[type=text]:-moz-placeholder, input[type=password]:-moz-placeholder, input[type=email]:-moz-placeholder, input[type=search]:-moz-placeholder, input[type=tel]:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+  color: #A9A9A9;
+  opacity: 1;
+}
+input[type=input].grey::-webkit-input-placeholder, input[type=text].grey::-webkit-input-placeholder, input[type=password].grey::-webkit-input-placeholder, input[type=email].grey::-webkit-input-placeholder, input[type=search].grey::-webkit-input-placeholder, input[type=tel].grey::-webkit-input-placeholder, textarea.grey::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #A9A9A9;
+}
+input[type=input].grey::-moz-placeholder, input[type=text].grey::-moz-placeholder, input[type=password].grey::-moz-placeholder, input[type=email].grey::-moz-placeholder, input[type=search].grey::-moz-placeholder, input[type=tel].grey::-moz-placeholder, textarea.grey::-moz-placeholder { /* Firefox 19+ */
+  color: #A9A9A9;
+  opacity: 1;
+}
+input[type=input].grey:-ms-input-placeholder, input[type=text].grey:-ms-input-placeholder, input[type=password].grey:-ms-input-placeholder, input[type=email].grey:-ms-input-placeholder, input[type=search].grey:-ms-input-placeholder, input[type=tel].grey:-ms-input-placeholder, textarea.grey:-ms-input-placeholder { /* IE 10+ */
+  color: #A9A9A9 !important;
+}
+input[type=input].grey:-moz-placeholder, input[type=text].grey:-moz-placeholder, input[type=password].grey:-moz-placeholder, input[type=email].grey:-moz-placeholder, input[type=search].grey:-moz-placeholder, input[type=tel].grey:-moz-placeholder, textarea.grey:-moz-placeholder { /* Firefox 18- */
+  color: #A9A9A9;
+  opacity: 1;
+}
+input[type=input].white::-webkit-input-placeholder, input[type=text].white::-webkit-input-placeholder, input[type=password].white::-webkit-input-placeholder, input[type=email].white::-webkit-input-placeholder, input[type=search].white::-webkit-input-placeholder, input[type=tel].white::-webkit-input-placeholder, textarea.white::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFFFFF;
+}
+input[type=input].white::-moz-placeholder, input[type=text].white::-moz-placeholder, input[type=password].white::-moz-placeholder, input[type=email].white::-moz-placeholder, input[type=search].white::-moz-placeholder, input[type=tel].white::-moz-placeholder, textarea.white::-moz-placeholder { /* Firefox 19+ */
+  color: #FFFFFF;
+  opacity: 1;
+}
+input[type=input].white:-ms-input-placeholder, input[type=text].white:-ms-input-placeholder, input[type=password].white:-ms-input-placeholder, input[type=email].white:-ms-input-placeholder, input[type=search].white:-ms-input-placeholder, input[type=tel].white:-ms-input-placeholder, textarea.white:-ms-input-placeholder { /* IE 10+ */
+  color: #FFFFFF !important;
+}
+input[type=input].white:-moz-placeholder, input[type=text].white:-moz-placeholder, input[type=password].white:-moz-placeholder, input[type=email].white:-moz-placeholder, input[type=search].white:-moz-placeholder, input[type=tel].white:-moz-placeholder, textarea.white:-moz-placeholder { /* Firefox 18- */
+  color: #FFFFFF;
+  opacity: 1;
+}
+input[type=input].black::-webkit-input-placeholder, input[type=text].black::-webkit-input-placeholder, input[type=password].black::-webkit-input-placeholder, input[type=email].black::-webkit-input-placeholder, input[type=search].black::-webkit-input-placeholder, input[type=tel].black::-webkit-input-placeholder, textarea.black::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333333;
+}
+input[type=input].black::-moz-placeholder, input[type=text].black::-moz-placeholder, input[type=password].black::-moz-placeholder, input[type=email].black::-moz-placeholder, input[type=search].black::-moz-placeholder, input[type=tel].black::-moz-placeholder, textarea.black::-moz-placeholder { /* Firefox 19+ */
+  color: #333333;
+  opacity: 1;
+}
+input[type=input].black:-ms-input-placeholder, input[type=text].black:-ms-input-placeholder, input[type=password].black:-ms-input-placeholder, input[type=email].black:-ms-input-placeholder, input[type=search].black:-ms-input-placeholder, input[type=tel].black:-ms-input-placeholder, textarea.black:-ms-input-placeholder { /* IE 10+ */
+  color: #333333 !important;
+}
+input[type=input].black:-moz-placeholder, input[type=text].black:-moz-placeholder, input[type=password].black:-moz-placeholder, input[type=email].black:-moz-placeholder, input[type=search].black:-moz-placeholder, input[type=tel].black:-moz-placeholder, textarea.black:-moz-placeholder { /* Firefox 18- */
+  color: #333333;
+  opacity: 1;
+}
+input[type=input].blue::-webkit-input-placeholder, input[type=text].blue::-webkit-input-placeholder, input[type=password].blue::-webkit-input-placeholder, input[type=email].blue::-webkit-input-placeholder, input[type=search].blue::-webkit-input-placeholder, input[type=tel].blue::-webkit-input-placeholder, textarea.blue::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #60AEF7;
+}
+input[type=input].blue::-moz-placeholder, input[type=text].blue::-moz-placeholder, input[type=password].blue::-moz-placeholder, input[type=email].blue::-moz-placeholder, input[type=search].blue::-moz-placeholder, input[type=tel].blue::-moz-placeholder, textarea.blue::-moz-placeholder { /* Firefox 19+ */
+  color: #60AEF7;
+  opacity: 1;
+}
+input[type=input].blue:-ms-input-placeholder, input[type=text].blue:-ms-input-placeholder, input[type=password].blue:-ms-input-placeholder, input[type=email].blue:-ms-input-placeholder, input[type=search].blue:-ms-input-placeholder, input[type=tel].blue:-ms-input-placeholder, textarea.blue:-ms-input-placeholder { /* IE 10+ */
+  color: #60AEF7 !important;
+}
+input[type=input].blue:-moz-placeholder, input[type=text].blue:-moz-placeholder, input[type=password].blue:-moz-placeholder, input[type=email].blue:-moz-placeholder, input[type=search].blue:-moz-placeholder, input[type=tel].blue:-moz-placeholder, textarea.blue:-moz-placeholder { /* Firefox 18- */
+  color: #60AEF7;
+  opacity: 1;
+}
+input[type=input].green::-webkit-input-placeholder, input[type=text].green::-webkit-input-placeholder, input[type=password].green::-webkit-input-placeholder, input[type=email].green::-webkit-input-placeholder, input[type=search].green::-webkit-input-placeholder, input[type=tel].green::-webkit-input-placeholder, textarea.green::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #69C765;
+}
+input[type=input].green::-moz-placeholder, input[type=text].green::-moz-placeholder, input[type=password].green::-moz-placeholder, input[type=email].green::-moz-placeholder, input[type=search].green::-moz-placeholder, input[type=tel].green::-moz-placeholder, textarea.green::-moz-placeholder { /* Firefox 19+ */
+  color: #69C765;
+  opacity: 1;
+}
+input[type=input].green:-ms-input-placeholder, input[type=text].green:-ms-input-placeholder, input[type=password].green:-ms-input-placeholder, input[type=email].green:-ms-input-placeholder, input[type=search].green:-ms-input-placeholder, input[type=tel].green:-ms-input-placeholder, textarea.green:-ms-input-placeholder { /* IE 10+ */
+  color: #69C765;
+}
+input[type=input].green:-moz-placeholder, input[type=text].green:-moz-placeholder, input[type=password].green:-moz-placeholder, input[type=email].green:-moz-placeholder, input[type=search].green:-moz-placeholder, input[type=tel].green:-moz-placeholder, textarea.green:-moz-placeholder { /* Firefox 18- */
+  color: #69C765;
+  opacity: 1;
+}
+input[type=input].red::-webkit-input-placeholder, input[type=text].red::-webkit-input-placeholder, input[type=password].red::-webkit-input-placeholder, input[type=email].red::-webkit-input-placeholder, input[type=search].red::-webkit-input-placeholder, input[type=tel].red::-webkit-input-placeholder, textarea.red::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FF8585;
+}
+input[type=input].red::-moz-placeholder, input[type=text].red::-moz-placeholder, input[type=password].red::-moz-placeholder, input[type=email].red::-moz-placeholder, input[type=search].red::-moz-placeholder, input[type=tel].red::-moz-placeholder, textarea.red::-moz-placeholder { /* Firefox 19+ */
+  color: #FF8585;
+  opacity: 1;
+}
+input[type=input].red:-ms-input-placeholder, input[type=text].red:-ms-input-placeholder, input[type=password].red:-ms-input-placeholder, input[type=email].red:-ms-input-placeholder, input[type=search].red:-ms-input-placeholder, input[type=tel].red:-ms-input-placeholder, textarea.red:-ms-input-placeholder { /* IE 10+ */
+  color: #FF8585 !important;
+}
+input[type=input].red:-moz-placeholder, input[type=text].red:-moz-placeholder, input[type=password].red:-moz-placeholder, input[type=email].red:-moz-placeholder, input[type=search].red:-moz-placeholder, input[type=tel].red:-moz-placeholder, textarea.red:-moz-placeholder { /* Firefox 18- */
+  color: #FF8585;
+  opacity: 1;
+}
+
+textarea {
+  resize: none;
+}
